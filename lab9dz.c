@@ -28,5 +28,5 @@ int main()
         printf("Продолжить? (Да - любое число, Нет - 0): ");
         scanf_s("%d", &p);
     } while (p != 0);
-    return 0;
+    system("pause");
 }
